@@ -4,7 +4,7 @@ from player import Player
 
 
 def main():
-    
+    #runs the game
 
     player = Player()
     dealer = Dealer()

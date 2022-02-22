@@ -1,11 +1,13 @@
 class Player:
-
+    #holds the data for the player
     def __init__(self):
+        #creates the player
         self.score=300
 
       
        
     def get_choice(self):
+        #gets the players high or low choice
        while True:
 
         try:
@@ -20,10 +22,10 @@ class Player:
             
                 
     def get_score(self):
-
+        #gets the players score
         return self.score
     def play_again(self):
-        
+        #gets the players play again choice
       
         while True:
 
